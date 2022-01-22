@@ -4,7 +4,8 @@
   "description": "embed player for d.tube",
   "main": "build.js",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/dtube/embed#readme",
   "devDependencies": {
     "clean-css": "^4.2.3",
-    "terser": "^4.6.6"
+    "terser": "^4.6.6",
+    "express": "^4.17.2"
   }
 }
